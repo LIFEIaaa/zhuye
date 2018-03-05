@@ -1,0 +1,270 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 579124 */
+  src: url('https://at.alicdn.com/t/font_579124_torhgcww154s4i.eot');
+  src: url('https://at.alicdn.com/t/font_579124_torhgcww154s4i.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_579124_torhgcww154s4i.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_579124_torhgcww154s4i.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_579124_torhgcww154s4i.svg#iconfont') format('svg');
+}
+body a:hover{
+	transition: all 0.5s;
+	text-decoration: none;
+	color: #444;
+}
+a:hover{
+	text-decoration: none;
+	color: #444;
+}
+#nav{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	box-shadow: 0 20px 100px rgba(0, 0, 0, 0.05);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.container{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 50px;
+}
+.nav_title{
+	height: 50px;
+	float: left;
+	background: #fff;
+	text-align: center;
+}
+.nav_brand{
+	color: #444;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 50px;
+	margin-right: auto; 
+	margin-left: auto;
+}
+.nav_brand:hover{
+	color: #444;
+}
+.nav_right{
+	width: 320px;
+	height: 50px;
+	background: white;
+	float: right;
+	font-size: 14px;
+	color: #5E5E5E;
+	line-height: 50px;
+	margin-right: -30px;
+}
+.nav_r1{
+	float: left;
+}
+.nav_r1 a{
+	color: #5E5E5E;
+	margin: 15px;	
+	padding-bottom: 5px;
+}
+.nav_r1 a:hover{
+	border-bottom: 2px solid #000000;
+}
+/* .icon-bar{
+	font-size: 24px;
+	font-family: 'iconfont';
+	float: right;
+	line-height: 50px;
+} */
+
+#home{
+	width: 100%;
+	height: 560px;
+	background: #fff;
+	margin-top: 50px;
+	float: left;
+}
+.picture{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background: pink;
+	margin: 0 auto;
+	margin-top: 83px;
+	overflow: hidden;
+}
+.man{
+	width: 120px;
+	height: 120px;
+}
+.jieshao{
+	font-size: 30px;
+	color: #281D24;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+.btn{
+	font-family: 'iconfont';
+	font-size: 48px;
+	color: #B6AAB8;
+}
+#neirong{
+	height: auto;
+	width: 100%;
+}
+#about{
+	width: 100%;
+	height: 900px;
+	background: #fff;
+	float: left;
+	text-align: center;
+	border-top: 1px solid #f2f2f2;
+}
+.container1{
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.text-center{
+	text-align: center;
+}
+.header-section{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.header-section h2{
+	color: #343434;
+	font-weight: 500;
+	font-size: 26px;
+	padding: 2em 0 1em 0;
+	line-height: 1.1px;
+	margin: 0;
+}
+.header-section span{
+	background: #8c868a;
+	width: 15%;
+	height: 1px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.header-section span:nth-child(1){
+	margin-right: 10px;
+}
+.header-section span:nth-child(2){
+	margin-left: 10px;
+}
+.wenzi{
+	margin-bottom: 2em;
+	line-height: 2em;
+	color: #5E5E5E;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.year_title{
+	color: #5e5e5e;
+	margin-top: 10px;
+	font-size: 20px;
+}
+#skills{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	float: left;
+	border-top: 1px solid #f2f2f2;
+}
+.portfolio-grid{
+	float: left;
+	margin-bottom: 20px;
+}
+.portfolio-grid p{
+	margin: 3em 1em 0 1em;
+	color: #504a4c;
+}
+.rightarrow{
+	font-family: 'iconfont';
+	font-size: 30px;
+	color: #b6aab8;
+	margin-top: 10px;
+}
+.rightarrow:hover{
+	color: #322A2C;
+}
+.computer{
+	width: 310px;
+	height: 256px;
+	position: relative;
+	margin: 0 auto;
+	transition: all 0.4s linear;
+}
+.computer:hover{
+	transform: scale(1.05, 1.05);
+}
+.yiju{
+	width: 287px;
+	height: 162px;
+	position: absolute;
+	top: 11px;
+	left: 10px;
+}
+.web{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.mobile-phone{
+	width: 150px;
+	height: 300px;
+	position: relative;
+	margin: 0 auto;
+	transition: all 0.4s linear;
+}
+.mobile-phone:hover{
+	transform: scale(1.05, 1.05);
+}
+.iphone{
+	width: 150px;
+	height: 300px;
+}
+.shop{
+	width: 132px;
+	height: 218px;
+	position: absolute;
+	top: 42px;
+	left: 10px;
+}
+#contact{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	border-top: 1px solid #f2f2f2;
+	float: left;
+	margin-top: 80px;
+}
+.header-section1{
+	height: 1110px;
+}
+.form-name{
+	height: 55px;
+	border: none;
+	border-bottom: 1px solid #f0f0f0;
+	font-size: 16px;
+	width: 100%;
+	padding: 6px 12px;
+	outline: none;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.form-name:hover{
+	border-bottom: 2px solid #C5C5C5;
+}
+.form-name1{
+	margin-bottom: 40px;
+}
+.thank{
+	font-size: 20px;
+	font-weight: bold;
+}
